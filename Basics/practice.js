@@ -84,3 +84,115 @@ function login(email, password) {
 }
 login("tejaswari@gmail.com", "tejaswari123");
 
+let fruits = ["apple", "banana", "orange", "grape", "mango"];
+console.log(fruits);
+console.log(fruits[0]);
+console.log(fruits[1]);
+console.log(fruits[2]);
+console.log(fruits[3]);
+console.log(fruits[4]);
+console.log(fruits.push("kiwi"));
+console.log(fruits.pop());
+console.log(fruits.includes("apple"));
+
+let name ='Tejaswari';
+console.log(name.toUpperCase());
+console.log(name.length);
+console.log(name.includes("Teja"));
+console.log(name.split("a"));
+
+let student = { name:'Tejaswari', age: 21, city: 'Hyderabad' };
+console.log(student);
+console.log(student.name);
+console.log(student.age);
+console.log(student.city);
+let car = { brand: "Toyota", model: "Camry", price: 30000 };
+console.log(car.brand);
+console.log(car.color='white');
+console.log(car.price=25000);
+
+let students = ['mahesh', 'suresh', 'ramesh', 'prasad'];
+for(let i=0; i<students.length; i++){
+    console.log(students[i]);
+}
+let vowels = ['a', 'e', 'i', 'o', 'u'];
+for(let i=0; i<vowels.length; i++){
+    console.log(vowels[i]);
+}
+console.log("number of vowels:",count);
+let employee = { name: 'harikrishna', age: 30, deparment: 'pharma' };
+for(let key in employee){
+    console.log(key, employee[key]);
+}
+let students =[
+  {name:'teja', age: 21, city: 'hyderabad'},
+  {name:'suresh', age: 22, city: 'bangalore'},
+  {name:'ramesh', age: 24, city: 'mumbai'}
+]
+for(let i=0; i<students.length; i++){
+    console.log(students[i].name);
+    console.log(students[i].age);
+    console.log(students[i].city);
+}
+
+let number = 9;
+if(number % 2 === 0){
+    console.log("The number is even");
+}
+else{
+    console.log("The number is odd");
+}
+let age = 22;
+if(age >= 18){
+    console.log("You are eligible to vote");
+}
+else{
+    console.log("You are not eligible to vote");
+}
+let a = 10;
+let b = 20;
+let c = 30;
+let largest;
+if(a > b && a > c){
+    largest = a;
+}
+else if(b > a && b > c){
+    largest = b;
+}
+else{
+    largest = c;
+}
+console.log("The largest number is:", largest);
+let marks = 85;
+let grade;
+if(marks >= 90){
+    grade = 'A';
+}
+else if(marks >= 80){
+    grade = 'B';
+}
+else if(marks >= 70){
+    grade = 'C';
+}
+else{
+    grade = 'D';
+}
+console.log("The grade is:", grade);
+for(let i=1; i<=10; i++){
+    console.log(i);
+}
+let sum = 0;
+for(let i=1; i<=5; i++){
+    sum += i;
+}
+console.log("The sum is:", sum);
+let
+
+
+
+
+
+
+
+
+
